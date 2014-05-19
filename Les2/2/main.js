@@ -2,11 +2,12 @@
 var athlete = {};
 
 // Add firstName
+/*
 Object.defineProperty(athlete, "firstName", {
     value: "Cow",
     enumerable: true, // I dunno lol \__(o.o__/
     configurable: true, // kan van binnenuit worden bewerkt?
-    writable: true //kan van buitenaf worden bewerkt?
+    writable: true // kan van buitenaf worden bewerkt?
 });
 
 // Add multiple properties (w/o get/set)
@@ -15,7 +16,7 @@ Object.defineProperties(athlete, {
         value: "17-02-1978"
     },
     "stamina": {}
-});
+});*/
 
 // Add multiple properies (get/set)
 Object.defineProperties(athlete, {
@@ -25,12 +26,12 @@ Object.defineProperties(athlete, {
     "dayofBirth": {
         set: function () {
             console.log("Reading date or birth.");
-            return this._name;
+            return this.doB;
         },
         get: function (value) {
             // Return functie...but how?
             console.log("It was born! At %s", value)
-            this._name = value;
+            this.doB = value;
         },
         enumerable: true,
         configurable: true
