@@ -1,0 +1,19 @@
+Mijn oplevering voor de eindopdracht wordt een simpel spelletje.
+
+In dit spel heb je drie lijnen. Jij bent een vierkant die zich over een
+van de lijnen kan voortbewegen, en van lijn kan wisselen door middel van
+de pijltjestoetsen.
+
+In tegenstelde richting op de drie lijnen bewegen zich andere vierkanten.
+Het meerendeel van hen zijn vijanden. De andere vierkantjes zijn powerups.
+
+Je hebt in dit spel 10 HP. Een vijand die je raakt laat je 1, 2 of 3 leven
+verliezen. Een powerup die je raakt vertraagt de vijanden of vult het
+aantal HP dat je hebt aan.
+
+De vierkanten gaan steeds harder, dus het wordt steeds lastiger om ze goed
+te kunnen ontwijken.
+
+Als je 0 HP hebt, is het spel ten einde. De score wordt dan weergegeven.
+Mocht je score hoog genoeg zijn, kom je ook terecht in de high-score lijst,
+die online wordt verkregen.
