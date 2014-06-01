@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>ToDoList!</title>
+    <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+<h1>To Do List</h1>
+<br/>
+<strong>Voeg een item toe:</strong>
+<br/>
+<input type="text" id="task" name="task"> Taak<br/>
+<input type="text" id="owner" name="owner"> Persoon<br/>
+<input type="button" id="b_create" name="b_create" value="Voeg toe aan lijst">
+<br/><br/>
+
+<table id="list" class="todoList">
+    <tr class="td_item">
+        <td>Rennen naar de supermarkt</td>
+        <td>Karel</td>
+    <tr/>
+    <tr class="td_item, complete">
+        <td>Koken en vegen</td>
+        <td>Annelies</td>
+    <tr/>
+    <tr class="td_item, inactive">
+        <td>Opruimen comics</td>
+        <td>Hikari</td>
+    <tr/>
+</table>
+
+<!-- Classes -->
+<script type="text/javascript" src="js/classes/listItem.js"></script>
+<script type="text/javascript" src="js/classes/list.js"></script>
+
+<!-- Main JS file -->
+<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>

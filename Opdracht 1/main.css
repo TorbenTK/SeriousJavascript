@@ -1,0 +1,31 @@
+td{
+    min-width: 100px;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+td input{
+    width: 75px;
+}
+
+.td_item {
+    background-color: rgba(0, 0, 255, 0.34);
+    min-width: 100px;
+    width: auto;
+    height: 30px;
+}
+
+.complete {
+    min-width: 100px;
+    width: auto;
+    height: 30px;
+    background-color: #97ff7d;
+}
+
+.inactive {
+    min-width: 100px;
+    width: auto;
+    height: 30px;
+    background-color: gray;
+}
